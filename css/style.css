@@ -1,0 +1,100 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: sant-serif;
+
+    color: #FFFFFF;
+}
+
+.wrapper {
+   background-image: url(../images/bg.jpg);
+   background-repeat: no-repeat;
+   background-position: left center;
+   background-size: cover;
+
+   min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+
+    padding-top: 46px;
+    margin-bottom: 240px;
+}
+
+.logo {
+    margin-right: 34px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li+li {
+    margin-left: 25px;
+}
+
+.menu li {
+    padding-top: 37px;
+}
+
+.menu a {
+    font-weight: 500;
+    font-size: 24px; 
+    line-height: 28px;
+
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+.titel {
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 141px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+
+    margin-bottom: 46px;
+}
+
+.slick-dots {
+    display: flex;
+
+    margin-bottom: 423px;
+
+    list-style: none;
+}
+
+.slick-dots li+li {
+    margin-left: 20px;
+}
+
+.slick-dots button {
+    font-size: 0;
+    border: none;
+    padding: 0;
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+    outline: none;
+}
