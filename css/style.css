@@ -10,17 +10,15 @@ html {
 
 body {
     font-family: sant-serif;
-
     color: #FFFFFF;
 }
 
 .wrapper {
-   background-image: url(../images/bg.jpg);
-   background-repeat: no-repeat;
-   background-position: left center;
-   background-size: cover;
-
-   min-height: 100vh;
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    min-height: 100vh;
 }
 
 .container {
@@ -30,7 +28,6 @@ body {
 
 .header {
     display: flex;
-
     padding-top: 46px;
     margin-bottom: 240px;
 }
@@ -55,10 +52,7 @@ body {
     font-weight: 500;
     font-size: 24px; 
     line-height: 28px;
-
     text-decoration: none;
-
-    color: #FFFFFF;
 }
 
 .titel {
@@ -77,9 +71,7 @@ body {
 
 .slick-dots {
     display: flex;
-
     margin-bottom: 423px;
-
     list-style: none;
 }
 
@@ -91,10 +83,8 @@ body {
     font-size: 0;
     border: none;
     padding: 0;
-
     width: 20px;
     height: 20px;
     border-radius: 50%;
-
     outline: none;
 }
